@@ -1,0 +1,331 @@
+﻿.gray .ajax__tab_header
+{
+    font-family: "Helvetica Neue" , Arial, Sans-Serif;
+    background: url(Images/tab-line.gif) repeat-x bottom;
+    font-size: 11px;
+    cursor: pointer;
+  
+    display: block;
+    width: 100%;
+}
+.gray .ajax__tab_header .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat left top;
+    border-color: #222;
+    color: #222;
+    font-size: 11px;
+    cursor: pointer;
+    padding-left: 5px;
+    margin-right: 3px;
+}
+.gray .ajax__tab_header .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right top;
+    border-color: #666;
+    color: #666;
+    cursor: pointer;
+    padding: 6px 18px 0px 15px;
+    height: 18px;
+}
+.gray .ajax__tab_hover .ajax__tab_inner
+{
+    font-weight:bolder;
+    color:  #999999;
+    font-style: italic;
+}
+
+.gray .ajax__tab_hover .ajax__tab_outer
+{
+    font-weight:bolder;
+    color:  #999999;
+    font-style: italic;
+}
+.gray .ajax__tab_active .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat 0pt -40px;
+    border-bottom-color: #ffffff;
+}
+.gray .ajax__tab_active .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right -40px;
+    color: #000;
+    border-color: #333;
+}
+
+.gray .ajax__tab_header .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat left top;
+    border-color: #222;
+    color: #222;
+    font-size: 11px;
+    cursor: pointer;
+    padding-left: 5px;
+    margin-right: 3px;
+}
+.gray .ajax__tab_header .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right top;
+    border-color: #666;
+    color: #666;
+    cursor: pointer;
+    padding: 6px 18px 0px 15px;
+    height: 18px;
+}
+.gray .ajax__tab_hover .ajax__tab_inner
+{
+    color: #000;
+}
+.gray .ajax__tab_active .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat 0pt -40px;
+     
+    border-bottom-color: #ffffff;
+}
+.gray .ajax__tab_active .ajax__tab_inner
+{
+	margin:0 !important;
+    background: url(Images/tabhead.gif) no-repeat right -40px;
+    color: #000;
+   
+}
+
+
+.gray .ajax__tab_body
+{
+	border:0px solid #999999;border-top:0;padding:2px;background-color:#ffffff;float:left;
+     position: relative;
+    font-family: verdana,tahoma,helvetica;
+    font-size: 10px;
+    background-color: #FFF;
+    border-bottom: solid 1px #d7d7d7;
+    border-left: solid 1px #d7d7d7;
+    border-right: solid 1px #d7d7d7; 
+    cursor: pointer;
+    display: block;
+    
+    width: 99.6%;
+}
+
+/************************************************
+eForm Design Tab
+
+
+*************************************************/
+
+.eFormDesign .ajax__tab_header
+{
+    font-family: "Helvetica Neue" , Arial, Sans-Serif;
+    background: url(Images/tab-line.gif) repeat-x bottom;
+    font-size: 11px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+.eFormDesign .ajax__tab_header .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat left top;
+    border-color: #222;
+    color: #222;
+    font-size: 11px;
+    cursor: pointer;
+    padding-left: 5px;
+    margin-right: 3px;
+}
+.eFormDesign .ajax__tab_header .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right top;
+    border-color: #666;
+    color: #666;
+    cursor: pointer;
+    padding: 6px 18px 0px 15px;
+    height: 18px;
+}
+.eFormDesign .ajax__tab_hover .ajax__tab_inner
+{
+    color:  #999999;
+}
+
+.eFormDesign .ajax__tab_hover .ajax__tab_outer
+{
+    color:  #999999;
+}
+.eFormDesign .ajax__tab_active .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat 0pt -40px;
+    border-bottom-color: #ffffff;
+}
+.eFormDesign .ajax__tab_active .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right -40px;
+    color: #000;
+    border-color: #333;
+}
+
+.eFormDesign .ajax__tab_header .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat left top;
+    border-color: #222;
+    color: #222;
+    font-size: 11px;
+    cursor: pointer;
+    padding-left: 5px;
+    margin-right: 3px;
+}
+.eFormDesign .ajax__tab_header .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right top;
+    border-color: #666;
+    color: #666;
+    cursor: pointer;
+    padding: 6px 18px 0px 15px;
+    height: 18px;
+}
+.eFormDesign .ajax__tab_hover .ajax__tab_inner
+{
+    color: #000;
+}
+.eFormDesign .ajax__tab_active .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat 0pt -40px;
+     
+    border-bottom-color: #ffffff;
+}
+.eFormDesign .ajax__tab_active .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right -40px;
+    color: #000;
+   
+}
+
+
+.eFormDesign .ajax__tab_body
+{
+    position: relative;
+    font-family: verdana,tahoma,helvetica;
+    font-size: 11px;
+    background-color: #FFF;
+    border: solid 1px #d7d7d7;
+    font-size: 11px;
+    cursor: pointer;
+    display: block;
+    background: url(Images/design.gif) repeat;
+    width: 100%;
+    
+}
+
+
+/*
+	grid  Tab
+
+*/
+
+.gridgray .ajax__tab_header
+{
+    font-family: "Helvetica Neue" , Arial, Sans-Serif;
+    background: url(Images/tab-line.gif) repeat-x bottom;
+    font-size: 11px;
+    cursor: pointer;
+  
+    display: block;
+    width: 100%;
+}
+.gridgray .ajax__tab_header .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat left top;
+    border-color: #222;
+    color: #222;
+    font-size: 11px;
+    cursor: pointer;
+    padding-left: 5px;
+    margin-right: 3px;
+}
+.gridgray .ajax__tab_header .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right top;
+    border-color: #666;
+    color: #666;
+    cursor: pointer;
+    padding: 6px 18px 0px 15px;
+    height: 18px;
+}
+.gridgray .ajax__tab_hover .ajax__tab_inner
+{
+    font-weight:bolder;
+    color:  #999999;
+    font-style: italic;
+}
+
+.gridgray .ajax__tab_hover .ajax__tab_outer
+{
+    font-weight:bolder;
+    color:  #999999;
+    font-style: italic;
+}
+.gridgray .ajax__tab_active .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat 0pt -40px;
+    border-bottom-color: #ffffff;
+}
+.gridgray .ajax__tab_active .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right -40px;
+    color: #000;
+    border-color: #333;
+}
+
+.gridgray .ajax__tab_header .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat left top;
+    border-color: #222;
+    color: #222;
+    font-size: 11px;
+    cursor: pointer;
+    padding-left: 5px;
+    margin-right: 3px;
+}
+.gridgray .ajax__tab_header .ajax__tab_inner
+{
+    background: url(Images/tabhead.gif) no-repeat right top;
+    border-color: #666;
+    color: #666;
+    cursor: pointer;
+    padding: 6px 18px 0px 15px;
+    height: 18px;
+}
+.gridgray .ajax__tab_hover .ajax__tab_inner
+{
+    color: #000;
+}
+.gridgray .ajax__tab_active .ajax__tab_outer
+{
+    background: url(Images/tabhead.gif) no-repeat 0pt -40px;
+     
+    border-bottom-color: #ffffff;
+}
+.gridgray .ajax__tab_active .ajax__tab_inner
+{
+	margin:0 !important;
+    background: url(Images/tabhead.gif) no-repeat right -40px;
+    color: #000;
+   
+}
+
+
+.gridgray .ajax__tab_body
+{
+	border:0px solid #999999;border-top:0;padding:2px;background-color:#ffffff;float:left;
+     position: relative;
+    font-family: verdana,tahoma,helvetica;
+    font-size: 10px;
+    background-color: #FFF;
+    border-bottom: solid 1px #d7d7d7;
+    border-left: solid 1px #d7d7d7;
+    border-right: solid 1px #d7d7d7; 
+    cursor: pointer;
+    display: block;
+    
+    width: 99.6%;
+}
+
+
+/* scrolling */

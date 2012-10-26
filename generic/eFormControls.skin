@@ -1,0 +1,54 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="serve <asp:Label SkinID = "Controllabel"  runat="server"  CssClass ="ControlLabel" />
+r" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:Label SkinID = "lblAdminGray"  runat="server"  CssClass ="lblAdminCss" />
+<asp:Label SkinID = "lblEFormTitle"  runat="server"   cssClass="EformButton" />
+<asp:Label SkinID = "eFormlabel"  runat="server"  CssClass ="eFormLabelCss" />
+<asp:Label SkinID = "Editorlabel"  runat="server"  CssClass ="editText" />
+
+
+<asp:CheckBox CssClass ="chkAdminGraCss" skinID="chkAdminGray" runat="server" />
+
+<asp:DropDownList  runat="server" SkinID ="eFormDropDownList" CssClass="eFormDropDownListcss"/>
+
+<asp:DropDownList  runat="server" SkinID ="eFormEditModeDropDownList" CssClass="eFormEditDropDownListcss"/>
+<asp:DropDownList  runat="server" SkinID ="eFormLongDropDownList" CssClass="eFormLongDropDownListcss"/>
+
+<asp:TextBox SkinID = "eFormTextBoxLong"  runat="server"  CssClass ="eFormtboxLongcss" />
+<asp:TextBox SkinID = "eFormOptionTextBox"  runat="server"  CssClass ="eFormOptionTextBoxcss" />
+<asp:TextBox SkinID = "eFormMidTextBox"  runat="server"  CssClass ="eFormmidtBoxcss" />
+<asp:TextBox SkinID = "eFormTextBoxShort"  runat="server"  CssClass ="eFormtboxShortcss" />
+<asp:TextBox SkinID = "eFormTextBox"  runat="server"  CssClass ="eFormtboxcss" />
+<asp:TextBox SkinID = "eFormShortTextBox"  runat="server"  CssClass ="eFormboxShortcss" />
+
+
+
+<asp:TextBox  runat="server"   SkinID="eFormTextAreaOnDesign"  CssClass="TextAreaBoxOnDesigncss"/>
+
+<asp:Button SkinID="Eformbutton" runat="server"   cssClass="EformButton" />
+<asp:ListBox  runat="server"     SkinID="eFormList"  CssClass="eFormListBoxcss"/>
+
+<asp:CheckBox CssClass ="CheckBox" skinID="DesignCheckBox" runat="server" />
+<asp:TextBox  runat="server"   SkinID="defaultTextArea"  CssClass="TextAreaBox"/>
+<asp:TextBox  runat="server"   SkinID="defaultTextAreaOnDesign"  CssClass="TextAreaBoxOnDesign"/>
+<asp:TextBox  runat="server"   SkinID="TextAreaOnDesign"  CssClass="TextAreaBoxTab"/>
+
+<asp:TextBox  runat="server"   SkinID="skinIDTextBoxReadOnly"  CssClass="cssTextBoxReadOnly"/>
+<asp:TextBox  runat="server"   SkinID="skinIDTextBoxMandatory"  CssClass="cssTextBoxMandatory"/>
+<asp:TextBox  runat="server"   SkinID="skinIDTextBoxMoney"  CssClass="cssTextBoxMoney"/>
+<asp:TextBox  runat="server"   SkinID="skinIDTextBoxDateTime"  CssClass="cssTextBoxDateTime"/>
+<asp:TextBox  runat="server"   SkinID="TextAreaBoxOnDropDownList"  CssClass="cssTextAreaBoxOnDropDownList"/>

@@ -1,0 +1,111 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+
+<asp:Label runat="server" SkinId="labelSkin" BackColor="yellow" >
+</asp:Label>
+<asp:Button SkindId="buttonSkin" runat="server" Text="Button" BackColor="Red" />
+
+--%>
+<%--Default skins --%>
+
+<%--asp:textbox ForeColor="black" BackColor="#FFFFDD" Font-Bold="false" Font-Size="xx-Small" Font-Names="tahoma, arial,helvetica,sans-serif" runat="server"/--%>
+<%--asp:CheckBox ForeColor="black" Font-Size="X-Small" Font-Names="arial,verdana,Helvetica,sans-serif" Font-Bold="true"  runat="server"/--%>  
+<%--asp:Radiobutton ForeColor="black" Font-Size="X-Small" Font-Names="arial,verdana,Helvetica,sans-serif" Font-Bold="true"  runat="server"/--%>  
+<%-- asp:Button  BackColor="#cfcfcf" ForeColor="#333333" Font-Bold="true" Font-Size="10px"  Font-Names="Verdana,Arial,Helvetica,sans-serif" height="22px" BorderColor="#999999" BorderWidth="3px" BorderStyle="double" Runat="server"/ --%>
+<%--asp:BulletedList ForeColor="black" Font-Bold="false" Font-Size=".8EM"  Font-Names="Trebuchet MS, Arial, Verdana, Helvetica, sans-serif" runat="server"/--%>
+<%--asp:DropDownList BorderColor="#999999" ForeColor="black" BackColor="#FFFAD2" Font-Bold="false" Font-Size="10px"  Font-Names="Tahoma, Arial,helvetica, sans-serif" runat="server" /--%> 
+<%--asp:ListBox BorderColor="#999999" ForeColor="black" BackColor="#FFFAD2" Font-Bold="false" Font-Size="10px"  Font-Names="Tahoma, Arial,helvetica, sans-serif" runat="server" /--%> 
+
+<%@ Register Assembly="Pelesys.Web.Common" Namespace="Pelesys.Web.Controls" TagPrefix="pel" %>
+
+<asp:Menu runat="server" class="appMenu" SkinId="appMenu" Orientation="Horizontal">
+    <StaticMenuStyle CssClass="appMenu_s" />
+    <StaticMenuItemStyle CssClass="appMenuItem_s" />
+    <StaticSelectedStyle CssClass="appMenuSelected_s" />
+    <StaticHoverStyle CssClass="appMenuHover_s" />
+    <DynamicMenuStyle CssClass="appMenu_d" />
+    <DynamicMenuItemStyle CssClass="appMenuItem_d" />
+    <DynamicSelectedStyle CssClass="appMenuSelected_d" />
+    <DynamicHoverStyle CssClass="appMenuHover_d" />
+</asp:Menu>
+<asp:Menu runat="server" class="mainMenu" SkinId="mainMenu" Orientation="Horizontal" StaticSubMenuIndent="10px">
+    <StaticMenuStyle CssClass="mainMenu_s" />
+    <StaticMenuItemStyle CssClass="mainMenuItem_s" />
+    <StaticSelectedStyle CssClass="mainMenuSelected_s" />
+    <StaticHoverStyle CssClass="mainMenuHover_s" />
+    <DynamicMenuStyle CssClass="mainMenu_d" />
+    <DynamicMenuItemStyle CssClass="mainMenuItem_d" />
+    <DynamicSelectedStyle CssClass="mainMenuSelected_d" />
+    <DynamicHoverStyle CssClass="mainMenuHover_d" />
+</asp:Menu>
+
+<asp:GridView Width="100%" runat="server" CellPadding="2" CellSpacing="0"  BorderWidth="0" 
+AllowSorting="True" AllowPaging="true" AutoGenerateColumns="false"
+PageSize="20" >
+        <HeaderStyle HorizontalAlign="Center" CssClass="grid_head" />
+        <RowStyle CssClass="grid_Row"/>	
+        <AlternatingRowStyle CssClass="grid_Row_Alt" />  
+        <EditRowStyle CssClass = "grid_Row_Edit" />
+        <SelectedRowStyle CssClass="grid_Row_Selected" />
+        <PagerSettings Position="Bottom"  Mode="NumericFirstLast" />
+        <PagerStyle  HorizontalAlign="Center" CssClass="grid_Pager"/>	    
+        <FooterStyle BackColor="#FFFFFF" Font-Size="x-Small" />
+    </asp:GridView>
+
+
+
+<pel:PelesysGridView Width="100%" runat="server" CellPadding="2" CellSpacing="0"  BorderWidth="0" 
+AllowSorting="True" AllowPaging="true" AutoGenerateColumns="false"
+PageSize="20" >
+        <HeaderStyle HorizontalAlign="Center" CssClass="grid_head" />
+        <RowStyle CssClass="grid_Row"/>	
+        <AlternatingRowStyle CssClass="grid_Row_Alt" />  
+        <EditRowStyle CssClass = "grid_Row_Edit" />
+        <SelectedRowStyle CssClass="grid_Row_Selected" />
+        <PagerSettings Position="Bottom"  Mode="NumericFirstLast" />
+        <PagerStyle  HorizontalAlign="Center" CssClass="grid_Pager"/>	    
+        <FooterStyle BackColor="#FFFFFF" Font-Size="x-Small" />
+
+    </pel:PelesysGridView>
+
+
+<asp:TreeView NodeWrap="false" 
+            ForeColor="black"
+            BackColor="white" 
+            runat="server"
+            ImageSet="custom"
+            NodeStyle-ImageUrl="images/folder.gif"
+            NodeStyle-HorizontalPadding="2px"
+            CssClass="treeCss" 
+            ShowLines="true">
+<SelectedNodeStyle BackColor="#7ac6f9" ForeColor="black" Font-Underline="false" />
+</asp:TreeView>
+
+<pel:pelesystreeview
+    NodeWrap="false" 
+    ForeColor="black"
+    BackColor="white" 
+    runat="server"
+    ImageSet="custom"
+    NodeStyle-HorizontalPadding="2px"
+    ShowLines="true"
+    CssClass="treeCss" 
+    >
+    <SelectedNodeStyle BackColor="yellow" />
+</pel:pelesystreeview>
+
+<%--Dummy skins - to be changed later --%>
+<asp:gridview SkinId="main_grid" runat="server" />
+<asp:Calendar SkinId="main_cal" runat="server" />

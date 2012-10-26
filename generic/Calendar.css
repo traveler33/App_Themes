@@ -1,0 +1,278 @@
+﻿.calendar .ajax__calendar_container 
+{
+    background-color:#fff;
+    border:solid 1px  #0198E7;
+    font-family:arial,helvetica,clean,sans-serif;
+    cursor:default;
+    width:195px;
+    font-size:11px;
+    text-align:center;
+    padding:2px;
+}
+
+.calendar .ajax__calendar_body 
+{
+    height:140px;
+    width:195px;
+    position:relative;
+    overflow:hidden;
+}
+
+.calendar .ajax__calendar_days, .calendar .ajax__calendar_months, .calendar .ajax__calendar_years 
+{
+    top:0px; 
+    left:0px;
+    height:140px;
+    width:195px;    
+    padding:5px;
+    position:absolute;
+    text-align:center;
+}
+
+.calendar .ajax__calendar_days table
+{
+    border-spacing:0;
+    border-collapse:collapse;
+    font:100% sans-serif;
+    text-align:center;    
+}
+
+.calendar .ajax__calendar_header 
+{
+    padding-top:4px;
+     width:195px;    
+    background:url(Images/mainBtn.gif) repeat-x; 
+    height:21px;
+}
+
+.calendar .ajax__calendar_prev 
+{
+    margin-left:8px;
+    margin-top:3px;
+    display:block;
+    cursor:pointer;
+    float:left;
+    background:url(Images/pre1.gif) no-repeat;
+}
+
+.calendar .ajax__calendar_next 
+{
+    margin-top:2px;
+    margin-right:0px;
+    display:block;
+    cursor:pointer;
+    float:right;
+    background:url(Images/next.gif) no-repeat;
+}
+
+.calendar .ajax__calendar_title 
+{
+    cursor:pointer;
+    text-align:center;
+    font-weight:500;
+    font-size:10pt;
+    color:Black;
+    font-family:Arial;    
+}
+
+.calendar .ajax__calendar_footer, .calendar .ajax__calendar_today 
+{
+    display:none;
+}
+
+.calendar .ajax__calendar_dayname 
+{
+    padding-left:3px;
+    padding-right:3px;
+    margin-bottom:5px;
+    margin-left:2px;
+    margin-right:2px;
+    text-align:center;
+    font-weight:600;
+    font-size:9pt;
+    color:#000;
+    border-bottom:solid 1px  #0198E7;
+}
+
+.calendar .ajax__calendar_day, .calendar .ajax__calendar_month, .calendar .ajax__calendar_year
+{
+    padding:0px;
+    color:#000;
+    text-align:center;  
+    padding:0pt 2px;
+}
+
+.calendar .ajax__calendar_hover .ajax__calendar_day, .calendar .ajax__calendar_hover .ajax__calendar_month, .calendar .ajax__calendar_hover .ajax__calendar_year
+{
+    color:#0066cc;
+}
+
+.calendar .ajax__calendar_other .ajax__calendar_day, .calendar .ajax__calendar_other .ajax__calendar_year
+{
+    color:#a6a6a6;   
+}
+
+.calendar .ajax__calendar_active .ajax__calendar_day
+{
+    color:#0066cc;   
+}
+
+.myCalendar {    background-color: #fff;    width: 240px;}
+/*    Common style declaration for hyper linked text*/
+.myCalendar a {    text-decoration: none;}
+/*    Styles declaration for top title    [TitleStyle] [CssClass] = myCalendarTitle*/
+.myCalendar .myCalendarTitle     
+{
+	font-weight: bold;
+	 background:url(Images/mainBtn.gif) repeat-x; 
+	  padding-top:4px;
+	  height: 28px;
+	}
+/*    Styles declaration for date cells    [DayStyle] [CssClass] = myCalendarDay*/
+.myCalendar td.myCalendarDay {    border: solid 2px #fff;    border-left: 0;    border-top: 0;}/*    Styles declaration for next/previous month links    [NextPrevStyle] [CssClass] = myCalendarNextPrev*/
+.myCalendar .myCalendarNextPrev {    text-align: center;}/*    Styles declaration for Week/Month selector links cells    [SelectorStyle] [CssClass] = myCalendarSelector*/
+.myCalendar td.myCalendarSelector {    background-color: #cccccc;}
+.myCalendar .myCalendarDay a, .myCalendar .myCalendarSelector a,.myCalendar .myCalendarNextPrev a {    display: block;    line-height: 18px;}
+.myCalendar .myCalendarDay a:hover, .myCalendar .myCalendarSelector a:hover {    background-color: #cccccc;}
+.myCalendar .myCalendarNextPrev a:hover {    background-color: #fff;}
+
+.cssHide
+{
+	 width: 0px;
+	
+	}
+	
+
+.Showcalendar .ajax__calendar_container 
+{
+    background-color:#fff;
+    border:solid 1px  #0198E7;
+    font-family:arial,helvetica,clean,sans-serif;
+    cursor:default;
+    width:220px;
+    font-size:12px;
+    text-align:center;
+    padding:0px;
+    
+}
+
+.Showcalendar .ajax__calendar_body 
+{
+    height:140px;
+    width:220px;
+  
+    overflow:hidden;
+   
+}
+
+.Showcalendar .ajax__calendar_days, .calendar .ajax__calendar_months, .calendar .ajax__calendar_years 
+{
+    top:0px; 
+    left:0px;
+    height:140px;
+    width: 220px;
+    
+    padding:0px;
+   
+    text-align:center;
+}
+
+.Showcalendar .ajax__calendar_days table
+{
+    border-spacing:0;
+    border-collapse:collapse;
+    font:100% sans-serif;
+    text-align:center;    
+}
+
+.Showcalendar .ajax__calendar_header 
+{
+    padding-top:4px;
+    width: 220px;
+         
+    background:url(Images/mainBtn.gif) repeat-x; 
+    height:34px;
+}
+
+.Showcalendar .ajax__calendar_prev 
+{
+       margin-left:8px;
+    margin-top:3px;
+   
+    display:block;
+    cursor:pointer;
+    float:left;
+    background:url(Images/pre1.gif) no-repeat;
+}
+
+.Showcalendar .ajax__calendar_next 
+{
+     margin-left:8px;
+    margin-top:3px;
+    display:block;
+    cursor:pointer;
+    float:right;
+    background:url(Images/next.gif) no-repeat;
+}
+
+.Showcalendar .ajax__calendar_title 
+{
+    cursor:pointer;
+    text-align:center;
+    font-weight:600;
+    font-size:10pt;
+    color:Black;
+    font-family:Arial;    
+}
+
+.Showcalendar .ajax__calendar_footer, .calendar .ajax__calendar_today 
+{
+    display:none;
+}
+
+.Showcalendar .ajax__calendar_dayname 
+{
+    padding-left:3px;
+    padding-right:3px;
+    margin-bottom:5px;
+    margin-left:2px;
+    margin-right:2px;
+    text-align:center;
+    font-weight:600;
+    font-size:10pt;
+    color:#000;
+    border-bottom:solid 1px  #0198E7;
+}
+
+.Showcalendar .ajax__calendar_day, .calendar .ajax__calendar_month, .calendar .ajax__calendar_year
+{
+    padding:0px;
+    color:#000;
+    text-align:center;  
+    padding:0pt 2px;
+}
+
+.Showcalendar .ajax__calendar_hover .ajax__calendar_day, .calendar .ajax__calendar_hover .ajax__calendar_month, .calendar .ajax__calendar_hover .ajax__calendar_year
+{
+    color:#0066cc;
+}
+
+.Showcalendar .ajax__calendar_other .ajax__calendar_day, .calendar .ajax__calendar_other .ajax__calendar_year
+{
+    color:#a6a6a6;   
+}
+
+.Showcalendar .ajax__calendar_active .ajax__calendar_day
+{
+    color:#0066cc;   
+}
+
+	
+.CalenderClass
+{
+	position: absolute; 
+	top: 100px; 
+	left: 2px; 
+	
+	
+	}

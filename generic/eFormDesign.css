@@ -1,0 +1,555 @@
+﻿
+.EFormDesignPanel
+{
+	cursor: move;
+	width: 340px;
+	margin: 8px;
+	height: 580px;
+	background-color: #FAFAFA;
+	box-shadow: 5px 5px 5px lightgray;
+	border: 2px solid #c4c8cc;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 8px;
+	text-align: left;
+	padding: 5px;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.SelectCoursePanel
+{
+	cursor: move;
+
+	margin: 8px;
+	height: 30px;
+	background-color: #FAFAFA;
+	box-shadow: 5px 5px 5px lightgray;
+	border: 2px solid #c4c8cc;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 8px;
+	text-align: left;
+	padding: 5px;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+
+.MinResultWindowPanel
+{
+	cursor: move;
+	width: 200px;
+	margin: 8px;
+	height: 30px;
+	background-color: #FAFAFA;
+	box-shadow: 5px 5px 5px lightgray;
+	border: 2px solid #c4c8cc;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 8px;
+	text-align: left;
+	padding: 5px;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+.ResultWindowPanel
+{
+	cursor: move;
+	width: 800px;
+	margin: 8px;
+	height: 620px;
+	background-color: #FAFAFA;
+	box-shadow: 5px 5px 5px lightgray;
+	border: 2px solid #c4c8cc;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 8px;
+	text-align: left;
+	padding: 5px;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.EFormPanel
+{
+	visibility: hidden;
+	display: none;
+	position: absolute;
+	left: 5;
+	top: 70px;
+}
+
+
+
+
+
+.eFormLabelCss
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+}
+
+
+.eFormLongDropDownListcss
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 10px;
+	background-color: white;
+	width: 450px;
+}
+.eFormDropDownListcss
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+
+	
+	width: 230px;
+	margin: 0;
+	padding: 0;
+}
+
+.eFormEditDropDownListcss
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+	background-color: White;
+	width: 200px;
+}
+
+
+
+.eFormOptionTextBoxcss
+{
+	border: solid 1px #c4c4c4;
+	background-color: White;
+	width: 320px;
+	padding-left: 2px;
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+}
+
+
+.eFormmidtBoxcss
+{
+	border: solid 1px #c4c4c4;
+	background-color: White;
+	width: 200px;
+	padding-left: 2px;
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+}
+.eFormtboxShortcss
+{
+	border: solid 1px #c4c4c4;
+	background-color: White;
+	width: 40px;
+	padding-left: 2px;
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+}
+
+.eFormtboxCoursecss
+{
+	border: solid 1px #c4c4c4;
+	background-color: White;
+	width: 80px;
+	padding-left: 2px;
+	font-family: Verdana;
+	color: Black;
+	font-size: 11px;
+}
+
+.eFormtboxcss
+{
+	border: solid 1px #c4c4c4;
+	background-color: White;
+	width: 160px;
+	padding-left: 2px;
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+}
+
+.eFormTextAreaBoxcss
+{
+	border: solid 1px #c4c4c4;
+	background-color: White;
+	width: 200px;
+	padding-left: 1px;
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+}
+.eFormTextBoxReadOnlycss
+{
+	font-family: Verdana;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	width: 160px;
+	background-color: #BEBCBC;
+}
+
+.eFormTextBoxMandatorycss
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+	font-weight: bold;
+	width: 160px;
+	background-color: #CCFFFF;
+}
+
+.eFormTextBoxMoneycss
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+	font-weight: bold;
+	width: 160px;
+	background-color: #ffffcc;
+}
+.eFormTextBoxDateTimecss
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+	width: 160px;
+	background-color: #F0F8FF;
+}
+
+.skinIDtxtSearchcss
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+	font-weight: bold;
+	min-width: 100px;
+	background-color: #ffffcc;
+}
+
+
+/*
+
+/* 
+design
+*/
+.cssFormDesignAccordionHead
+{
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 25px;
+	font-size: 10px;
+	color:#6A6464;
+	background: url(images/btn_b.gif) repeat-x 0px 0px;
+	padding: 2px 2px 2px 2px;
+	text-align: justify;
+	vertical-align: middle;
+	cursor: hand;
+}
+
+.cssFormDesignAccordionContent
+{
+	width: 230px;
+	height: 250px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: black;
+	display: block;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: justify;
+	vertical-align: middle;
+	background-color: Transparent;
+	text-decoration: none;
+}
+
+.cssFormDesignSelectedHead
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: #373535;
+	height: 23px;
+	background: url(images/mainBtn.gif) repeat-x 0px 0px;
+	padding: 4px 4px 4px 4px;
+	text-align: justify;
+	vertical-align: middle;
+	cursor: hand;
+	border: 1px solid lightgray;
+}
+
+.WaterMark
+{
+	background-color: #F0F8FF;
+	font-family: Verdana;
+	width: 160px;
+	color: #6495ED;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+* .EformButton:hover, * .button.hover
+{
+	color: Blue;
+}
+
+.eFormListBoxcss
+{
+	font-family: Verdana;
+	color: #666666;
+	font-size: 10px;
+	font-weight: bold;
+
+	width: 210px;
+	height: 180px;
+	border: 1px solid lightgray;
+}
+
+.TextAreaBoxOnDesigncss
+{
+	border: solid 1px #c4c4c4;
+	background-color: White;
+	padding-left: 2px;
+	font-family: Verdana;
+	color: #666666;
+	font-size: 11px;
+}
+
+.eFormSucessStatus
+{
+	width: 700px;
+	height: 50px;
+	overflow: auto;
+	text-align: center;
+	padding: 4px;
+	background-color: #228B22;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+
+.eFormWarnStatus
+{
+	width: 700px;
+	height: 50px;
+	overflow: auto;
+	text-align: center;
+	padding: 4px;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+
+/**********************************************
+Form Design Drag class
+
+*********************************************/
+.CssEformDragClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	cursor: move;
+	text-decoration: none;
+	border: solid 1px #E8E8E8;
+	position: relative;
+	padding: 10px;
+}
+.editable
+{
+	display: inline;
+	background-color: Red;
+}
+
+
+/***************************************************
+***********************************************/
+.CheckBox
+{
+	padding-left: 2px;
+	font-family: Verdana;
+	color: #666666;
+	font-size: 10px;
+}
+
+.TextAreaBoxTab
+
+{
+    border: solid 1px #c4c4c4;
+    background-color:  White;
+   
+    padding-left: 1px;  
+    font-family: Verdana; 
+    color: #666666; 
+    font-size: 8px;  
+}
+.TextAreaBox
+{
+    border: solid 1px #c4c4c4;
+    background-color:  White;
+    width: 200px;
+    padding-left: 1px;  
+    font-family: Verdana; 
+    color: #666666; 
+    font-size: 10px;  
+}
+.cssTextBoxReadOnly
+{
+	font-family: Verdana; 
+    color: #FFFFFF; 
+    font-size: 10px;
+    font-weight: bold;
+    width:160px;
+    background-color: #E6E6FA;
+	
+	}
+
+.cssTextBoxMandatory
+{
+	font-family: Verdana; 
+    color: #666666;  
+    font-size: 10px;
+     font-weight: bold;
+    width:160px;
+    background-color: #CCFFFF;
+	
+	}
+	
+.cssTextBoxMoney
+{
+	font-family: Verdana; 
+    color: #666666;  
+    font-size: 10px;
+     font-weight: bold;
+    width:160px;
+    background-color: #ffffcc;
+	
+	}
+.cssTextBoxDateTime
+{
+	font-family: Verdana; 
+    color: #666666;  
+    font-size: 10px;
+    
+    width:160px;
+    background-color:#F0F8FF;
+	
+	}
+
+.TextAreaBoxOnDesign
+{
+    border: solid 1px #c4c4c4;
+    background-color:  White;
+   
+    padding-left: 2px;  
+    font-family: Verdana; 
+    color: #666666; 
+    font-size: 9px;  
+}
+
+
+.cssTextAreaBoxOnDropDownList
+{
+    border: solid 1px #c4c4c4;
+    background-color:  White;
+  
+    
+    padding-left: 2px;  
+    font-family: Verdana; 
+    color: #666666; 
+    font-size: 8px;  
+}
+
+
+.PanelImage
+{
+	position: absolute ;
+	top: 180px;
+	left: 580px;
+	visibility: hidden;
+	
+	filter:shadow(color:gray, strength:10, direction:135); 
+	padding: 4px;
+	 
+	
+	z-index: 1px;
+	  
+	}
+	
+
+	
+.PanelUploadImageOnDesign
+{
+	 position:   relative;
+	 top: 0px;
+	 left: 0px;
+	 height: 130px;
+      border: 2  solid  white;
+     padding: 6px;
+	  background-color:#DCDCDC;
+	   z-index: 1px;
+	 
+	}		
+.PanelUploadImage
+{
+	 position:   relative;
+	 top: 0px;
+	 left: 0px;
+
+      border: 3  solid  white;
+     padding: 4px;
+	  background-color: #FAFAFA ;
+	   z-index: 1px;
+	 
+	}	
+
+.cssUploadFile
+{
+	background-color:  #FAFAFA ;
+	border    : 2px solid white;
+	padding:1px;
+	}
+	
+
+.cssPanel
+{
+	position: relative;
+    font-family: verdana,tahoma,helvetica;
+    font-size: 11px;
+    background-color: #FFF;
+    border: solid 1px #d7d7d7;
+    font-size: 11px;
+    cursor: pointer;
+    display: block;
+   
+	
+	}
+	
+	.cssDesignPanel
+{
+	position: relative;
+    font-family: verdana,tahoma,helvetica;
+    font-size: 11px;
+   
+    border: solid 1px #d7d7d7;
+    font-size: 11px;
+    cursor: pointer;
+    display: block;
+    background: url(Images/design.gif) repeat;
+	
+	}
